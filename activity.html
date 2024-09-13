@@ -9,14 +9,14 @@
 <body>
     <aside>
         <ul>
-            <li><a href="Create Event">Create Event</a></li>
-            <li><a href=""></a>Select Availability</li>
-            <li><a href=""></a>View Results</li>
-            <li><a href=""></a>Sign up</li>
+            <li><a href="#Create Event">Create Event</a></li>
+            <li><a href="#Availability">Select Availability</a></li>
+            <li><a href="#Results">View Results</a></li>
+            <li><a href="#Sign up">Sign up</a></li>
         </ul>
     </aside>
-    <h2>Create Event</h2>
-    <br>
+    <h2 id="Create Event">Create Event</h2>
+
     <form action="" method="post">
 
         <label for="eventname">Event Name: </label>
@@ -40,7 +40,9 @@
         </select>
         <input type="submit" name="time" id="time" value="Create Event">
     </form>
-    <h2>Input Availability</h2>
+
+    <h2 id="Availability">Input Availability</h2>
+
     <table>
         <thead>
             <tr>
@@ -55,17 +57,17 @@
         <tr>
             <td>9:00 AM</td>
             <form action="" method="post">
-            <td><input type="checkbox" name="day" id="day"></td>
-            <td><input type="checkbox" name="day" id="day"></td>
-            <td><input type="checkbox" name="day" id="day"></td>
-            <td><input type="checkbox" name="day" id="day"></td>
-            <td><input type="checkbox" name="day" id="day"></td>
+                <td><input type="checkbox" name="day" id="day"></td>
+                <td><input type="checkbox" name="day" id="day"></td>
+                <td><input type="checkbox" name="day" id="day"></td>
+                <td><input type="checkbox" name="day" id="day"></td>
+                <td><input type="checkbox" name="day" id="day"></td>
             </form>
         </tr>
-        
+
     </table>
     <input type="submit" name="day" id="day" value="Submit Availability">
-    <h2>View Results</h2>
+    <h2 id="Results">View Results</h2>
     <table>
         <thead>
             <tr>
@@ -87,8 +89,8 @@
         </tr>
     </table>
     <p>Shareable Link:<a href="https://when2meet.com/event?id=123456">https://when2meet.com/event?id=123456</a></p>
-    
-    <h2>Sign up</h2>
+
+    <h2 id="Sign up">Sign up</h2>
 
     <form action="" method="post">
         <label for="name">Username: </label>
